@@ -6,6 +6,11 @@ A React chat application that switches between multiple large language models be
 ![TypeScript](https://img.shields.io/badge/TypeScript-4.7.4-blue)
 ![TailwindCSS](https://img.shields.io/badge/TailwindCSS-3.1.6-blue)
 
+![Multi-model chat UI](docs/screenshot.png)
+
+*The model selector in the top right switches the backend without the rest of the UI changing. Note: the interface strings are currently Chinese only.*
+
+
 ## What it does
 
 - **One abstraction over several model backends** — switch between Kimi K2 and DeepSeek R1 without the UI knowing which provider it is talking to. Endpoint, model name, token ceiling and temperature live in a single config map, so adding a provider is a config change rather than a code change.
